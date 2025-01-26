@@ -12,32 +12,32 @@ We use **Matlab** to construct and solve tridiagonal matrices that approximate t
 
 The **time-independent Schrödinger equation** in one dimension is:
 
-\[
+$$
 -\frac{1}{2} \frac{d^2 \psi}{dx^2} + V(x) \psi(x) = E \psi(x)
-\]
+$$
 
 where:
 - $\( \psi(x) \)$ is the wave function,
-- \( V(x) \) is the potential energy,
-- \( E \) is the energy eigenvalue.
+- $\( V(x) \)$ is the potential energy,
+- $\( E \)$ is the energy eigenvalue.
 
 ### 🔹 Case 1: **Particle in a Box**
-The simplest case is when \( V(x) = 0 \) inside a box of width \( a \), and infinite outside. The analytical solutions are:
+The simplest case is when $\( V(x) = 0 \)$ inside a box of width $\( a \)$, and infinite outside. The analytical solutions are:
 
-\[
+$$
 \psi_n(x) = \sqrt{\frac{2}{a}} \sin\left(\frac{n\pi x}{a}\right), \quad E_n = \frac{n^2 \pi^2}{2 a^2}
-\]
+$$
 
-where \( n = 1, 2, 3, ... \) indexes the quantum states.
+where $\( n = 1, 2, 3, ... \)$ indexes the quantum states.
 
 ### 🔹 Case 2: **Harmonic-like Potential**
 For a quantum dot system, the potential inside the well is modeled as:
 
-\[
+$$
 V(x) = \frac{(f x)^2}{2}
-\]
+$$
 
-where \( f \) is a scaling factor. The goal is to find the **numerical eigenvalues and eigenfunctions** and compare them to first-order perturbation theory.
+where $\( f \)$ is a scaling factor. The goal is to find the **numerical eigenvalues and eigenfunctions** and compare them to first-order perturbation theory.
 
 ---
 
@@ -45,15 +45,15 @@ where \( f \) is a scaling factor. The goal is to find the **numerical eigenvalu
 
 We discretize the Schrödinger equation using a **finite difference method**. The equation transforms into a matrix eigenvalue problem:
 
-\[
+$$
 H \psi = E \psi
-\]
+$$
 
-where \( H \) is a **tridiagonal Hamiltonian matrix** with:
-- **Main diagonal**: \( \frac{1}{\Delta^2} + V_k \)
-- **Off-diagonal terms**: \( -\frac{1}{2\Delta^2} \)
+where $\( H \)$ is a **tridiagonal Hamiltonian matrix** with:
+- **Main diagonal**: $\( \frac{1}{\Delta^2} + V_k \)$
+- **Off-diagonal terms**: $\( -\frac{1}{2\Delta^2} \)$
 
-Here, \( \Delta \) is the discretization step size.
+Here, $\( \Delta \)$ is the discretization step size.
 
 ### 🔹 Matlab Implementation
 
