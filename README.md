@@ -101,7 +101,7 @@ For large \( f \), perturbation theory **fails** to capture the rapid energy inc
 <img src="wavefunction_comparison.png" width="500">
 
 ### 🔹 Effect of \( f \) on Ground State
-<img src="wavefunction_vs_f.png" width="500">
+<img src="ground_level_diff_f.png" width="500">
 
 ---
 
