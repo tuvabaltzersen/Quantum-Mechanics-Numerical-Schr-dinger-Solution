@@ -17,7 +17,7 @@ The **time-independent Schrödinger equation** in one dimension is:
 \]
 
 where:
-- \( \psi(x) \) is the wave function,
+- $\( \psi(x) \)$ is the wave function,
 - \( V(x) \) is the potential energy,
 - \( E \) is the energy eigenvalue.
 
