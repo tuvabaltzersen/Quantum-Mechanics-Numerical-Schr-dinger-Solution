@@ -87,9 +87,9 @@ We plot the **ground-state wavefunction** for different values of \( f \):
 
 This follows from perturbation theory:
 
-\[
+$$
 E_1 \approx \frac{\pi^2}{2} + \frac{h^2 f^2 ( \pi - 6 )}{24 m_e \pi^2} \left(\frac{m_e a^2}{h^2} \right)
-\]
+$$
 
 For large \( f \), perturbation theory **fails** to capture the rapid energy increase.
 
@@ -108,7 +108,7 @@ For large \( f \), perturbation theory **fails** to capture the rapid energy inc
 ## 🔮 Conclusion
 
 - **Numerical methods** provide a powerful way to approximate quantum systems, especially when analytical solutions are not feasible.
-- **Higher discretization points \( N \)** improve accuracy but increase computational cost.
+- **Higher discretization points $ N $** improve accuracy but increase computational cost.
 - **Perturbation theory is only valid for weak potentials**—for strong potentials, numerical solutions deviate significantly.
 - **Future work:** Extend the model to **higher dimensions** and test different potentials!
 
