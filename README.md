@@ -33,7 +33,7 @@ $$
 $$
 
 where $\( n = 1, 2, 3, ... \)$ indexes the quantum states.
-$\( a \)$ is usually something small like one nanometer. 
+$a$ is usually something small like one nanometer. 
 
 ### 🔹 Case 2: **Harmonic-like Potential**
 For a quantum dot system it is a bit more complex because we will now deal with a potential that is not zero inside the box. The potential inside the well is modeled as:
