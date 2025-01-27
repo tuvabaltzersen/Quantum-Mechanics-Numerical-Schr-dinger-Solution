@@ -1,8 +1,8 @@
-# 📡 Quantum Mechanics: Solving the Schrödinger Equation Numerically
+# 🎇 Quantum Mechanics: Solving the Schrödinger Equation Numerically
 
-## 🔬 Introduction
+## 🎙 Introduction
 
-Hi and welcome to my repository:), here we explores the quantum mechanics numerically. The problem that is being solved and analysed is the classicle quantum problem "particle in a potential well". What we specifically do is that we solve **time-independent Schrödinger equation** for the particle using matrix methods. This is a fundamental problem in quantum mechanics and therefore important to understand so let's go over it together and break in down. 
+Hi and welcome to my repository😊, here we explores the quantum mechanics numerically. The problem that is being solved and analysed is the classicle quantum problem "particle in a potential well". What we specifically do is that we solve **time-independent Schrödinger equation** for the particle using matrix methods. This is a fundamental problem in quantum mechanics and therefore important to understand so let's go over it together and break in down. 
 
 We will have to construct and solve tridiagonal matrices as an approximate to the Schrödinger equation and to do this we will uese **Matlab**. The goal is to compare the numerical solution with an analytical solution and explore the behavior of quantom states under different potentials. 
 
