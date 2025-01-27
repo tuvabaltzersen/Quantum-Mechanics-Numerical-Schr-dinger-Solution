@@ -115,8 +115,8 @@ For large \( f \), perturbation theory **fails** to capture the rapid energy inc
 
 ## 🔮 Conclusion
 
-- **Numerical methods** provide a powerful way to approximate quantum systems, especially when analytical solutions are not feasible.
-- **Higher discretization points N ** improve accuracy but increase computational cost.
+- **Numerical methods** provide a powerful way to approximate quantum systems, especially when analytical solutions are not possible.
+- **Higher discretization points N** improve accuracy but increase computational cost.
 - **Perturbation theory is only valid for weak potentials**—for strong potentials, numerical solutions deviate significantly.
 - **Future work:** Extend the model to **higher dimensions** and test different potentials!
 
