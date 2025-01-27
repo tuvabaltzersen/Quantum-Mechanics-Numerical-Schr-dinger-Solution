@@ -48,7 +48,7 @@ where $\( f \)$ is a scaling factor. The goal is to find the **numerical eigenva
 
 ## 🛠️ Numerical Method
 
-We discretize the Schrödinger equation using a **finite difference method**. The Finite difference method is a numerical technique for solving the differential equations. Broadly speaking you take a non-linear equation sush as a ODE or PDE and convert it into a system of linear equations. These linear equations can be solved with some matrix algebra. If this is something completely new do a quick google search and learn it a bit more in detail, this will help you understand the code better. 
+We discretize the Schrödinger equation using a **finite difference method**. The Finite difference method is a numerical technique for solving differential equations. Broadly speaking you take a non-linear equation sush as a ODE or PDE and convert it into a system of linear equations. These linear equations can be solved with some matrix algebra. If this is something completely new do a quick google search and learn it a bit more in detail, this will help you understand the code better. 
 
 The equation transforms into a matrix eigenvalue problem:
 
