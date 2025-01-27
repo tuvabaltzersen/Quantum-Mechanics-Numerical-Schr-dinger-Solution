@@ -21,7 +21,7 @@ where:
 - $\( V(x) \)$ is the potential energy,
 - $\( E \)$ is the energy eigenvalue.
 
-This equation is fundamental and can be find in any quantum mechanics book so we will ship to long introduction to this, but if it feels foreign look it up before continuing reading. 
+This equation is fundamental and can be find in any quantum mechanics book so we will ship the long introduction to this, but if it feels foreign look it up before continuing reading. 
 
 ### 🔹 Case 1: **Particle in a Box**
 A "particle in a box"-problem is something you see very often in the quantum world and when you see one you should feel happy because it is a simplificaton of something really complex into something we can solve. 
