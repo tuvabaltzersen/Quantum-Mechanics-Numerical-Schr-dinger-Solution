@@ -1,4 +1,4 @@
-% Konstanter
+%%groundlevel energy large f
 hbar = 1.0545718e-34; % Plancks reducerade konstant Js
 m_e = 9.10938356e-31; % Elektronens massa kg
 c = 3e8;              % Ljusets hastighet m/s
