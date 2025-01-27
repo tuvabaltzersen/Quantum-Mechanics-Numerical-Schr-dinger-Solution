@@ -1,4 +1,4 @@
-% 2. b
+%%groundlevel analysis f varibel
 % Konstanter
 hbar = 1.0545718e-34;  % Plancks reducerade konstant J·s
 m_e = 9.10938356e-31;  % Elektronens massa kg
