@@ -1,4 +1,4 @@
-%% 1.a,b
+%%ana./num. N=10
 
 clear;clc;clf
 
@@ -72,7 +72,7 @@ for n=1:N
 
 end 
 
-%% 1. c
+%%N=50
 format long g
 
 %given data:
@@ -103,7 +103,7 @@ disp('egenvärden ana. för 10 första energinivåerna')
 disp(ana_eigenvalues);
 
 
-%% fråga 2.a 
+%%a,fmin,fmax
 clear; clc; clf;
 
 % Konstanter
