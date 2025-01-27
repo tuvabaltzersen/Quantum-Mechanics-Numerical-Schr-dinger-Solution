@@ -2,9 +2,9 @@
 
 ## 🔬 Introduction
 
-Welcome to this repository, where we explore quantum mechanics numerically! Specifically, we solve the **time-independent Schrödinger equation** for a particle in a potential well using matrix methods. This is a fundamental problem in quantum mechanics, often used to model electrons in a quantum dot.
+Hi and welcome to my repository:), here we explores the quantum mechanics numerically. The problem that is being solved and analysed is the classicle quantum problem "particle in a potential well". What we specifically do is that we solve **time-independent Schrödinger equation** for the particle using matrix methods. This is a fundamental problem in quantum mechanics and therefore important to understand so let's go over it together and break in down. 
 
-We use **Matlab** to construct and solve tridiagonal matrices that approximate the Schrödinger equation. Our goal is to compare numerical solutions with analytical results and investigate the behavior of quantum states under different potentials.
+We will have to construct and solve tridiagonal matrices as an approximate to the Schrödinger equation and to do this we will uese **Matlab**. The goal is to compare the numerical solution with an analytical solution and explore the behavior of quantom states under different potentials. 
 
 ---
 
@@ -21,7 +21,11 @@ where:
 - $\( V(x) \)$ is the potential energy,
 - $\( E \)$ is the energy eigenvalue.
 
+This equation is fundamental and can be find in any quantum mechanics book so we will ship to long introduction to this, but if it feels foreign look it up before continuing reading. 
+
 ### 🔹 Case 1: **Particle in a Box**
+A "particle in a box"-problem is something you see very often in the quantum world and when you see one you should feel happy because it is a simplificaton of something really complex into something we can solve. 
+
 The simplest case is when $\( V(x) = 0 \)$ inside a box of width $\( a \)$, and infinite outside. The analytical solutions are:
 
 $$
@@ -29,21 +33,24 @@ $$
 $$
 
 where $\( n = 1, 2, 3, ... \)$ indexes the quantum states.
+$\( a \)$ is usually something small like one nanometer. 
 
 ### 🔹 Case 2: **Harmonic-like Potential**
-For a quantum dot system, the potential inside the well is modeled as:
+For a quantum dot system it is a bit more complex because we will now deal with a potential that is not zero inside the box. The potential inside the well is modeled as:
 
 $$
 V(x) = \frac{(f x)^2}{2}
 $$
 
-where $\( f \)$ is a scaling factor. The goal is to find the **numerical eigenvalues and eigenfunctions** and compare them to first-order perturbation theory.
+where $\( f \)$ is a scaling factor. The goal is to find the **numerical eigenvalues and eigenfunctions** and compare them to first-order perturbation theory. 
 
 ---
 
 ## 🛠️ Numerical Method
 
-We discretize the Schrödinger equation using a **finite difference method**. The equation transforms into a matrix eigenvalue problem:
+We discretize the Schrödinger equation using a **finite difference method**. The Finite difference method is a numerical technique for solving the differential equations. Broadly speaking you take a non-linear equation sush as a ODE or PDE and convert it into a system of linear equations. These linear equations can be solved with some matrix algebra. If this is something completely new do a quick google search and learn it a bit more in detail, this will help you understand the code better. 
+
+The equation transforms into a matrix eigenvalue problem:
 
 $$
 H \psi = E \psi
@@ -59,9 +66,10 @@ Here, $\( \Delta \)$ is the discretization step size.
 
 Each script in this repository corresponds to a specific problem:
 
-- **`kvantinl2_uppg2b.m`**: Computes the wave function for different values of \( f \) and visualizes how it changes.
-- **`kvantinl2_uppg3a.m`**: Uses `fminsearch` to find the optimal \( f \) by minimizing the error between numerical and first-order perturbation theory results.
-- **`kvantinl2_uppg3b.m`**: Investigates how first-order perturbation theory breaks down for large \( f \).
+- **`quantumSE1.m`**: Calculates the eigenfunction and eigenvalues and plots the accuracy of the numerical solution. 
+- **`quantumSE2.m`**: Computes the wave function for different values of \( f \) and visualizes how it changes.
+- **`quantumSE3.m`**: Uses `fminsearch` to find the optimal \( f \) by minimizing the error between numerical and first-order perturbation theory results.
+- **`quantumSE4.m`**: Investigates how first-order perturbation theory breaks down for large \( f \).
 
 ---
 
