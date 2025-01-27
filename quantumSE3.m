@@ -1,4 +1,4 @@
-%% 3. a 
+%% första korr. 
 
 hbar = 1.0545718e-34; % Plancks reducerade konstant Js
 m_e = 9.10938356e-31; % Elektronens massa kg
